@@ -47,7 +47,7 @@ Please read [CONTRIBUTING.md](#) for details on our code of conduct, and the pro
 
 * **Justin Moore** - *Initial work* - [humanumbrella](https://github.com/humanumbrella)
 
-See also the list of [contributors](https://github.com/ArduinoPolarimeter/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/humanumbrella/ArduinoPolarimeter/contributors) who participated in this project.
 
 ## License
 
