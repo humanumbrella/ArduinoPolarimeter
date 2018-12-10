@@ -142,7 +142,6 @@ wait for commands
 void setup() {
   // initialize serial communication:
   Serial.begin(57600); 
-  //flush the line
   Serial.flush();
   
   //set up for the LA tray
@@ -152,7 +151,6 @@ void setup() {
   analogWrite(LA_pwm,0);
   digitalWrite(LA_dir,0);
   
-  //AFMS = Adafruit Motor Shield
   AFMS.begin();  // create with the default frequency 1.6KHz
   //This changes the frequency of the PWM portion on the motors.
   //AFMS.begin(1000);  // OR with a different frequency, say 1KHz
@@ -185,8 +183,8 @@ void setup() {
   idle = false;
 }
 
+//here is where we spend most of the time
 void loop(){
-  //here is where we spend most of the time
   String fullInput = "";
   char motor;
   char cmd;
